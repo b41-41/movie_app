@@ -1,4 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
 body {
   background-color: #1c1c1a;
   color: white;
+}
+
+.movies {
+  display: flex;
+}
+
+.movie {
+  /* background-color: rgba(255, 255, 255, 10%); */
+  /* border-radius: 15px; */
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.movie__title {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.movie__year {
+  text-align: left;
+  font-size: 0.8rem;
+  color: rgb(167, 167, 167);
+}
+
+.movie__image {
+  border-radius: 5px;
+  width: 100%;
 }
