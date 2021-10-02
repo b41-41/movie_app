@@ -6,9 +6,16 @@ body {
 }
 
 .movies {
+  position: absolute;
   display: flex;
+  top: 50%;
+  transform: translate(0, -50%);
   flex-wrap: nowrap;
   overflow-x: auto;
+}
+
+.movie + .movie {
+  margin-left: 20px;
 }
 
 .movie {
@@ -26,13 +33,33 @@ body {
   font-size: 1rem;
 }
 
+.movie__title-icon {
+  color: #f3af7f;
+  font-size: 0.8rem;
+}
+
 .movie__year {
+  display: grid;
+  grid-column: 30px 1fr;
+}
+
+.movie__year-title {
+  display: inline-block;
   text-align: left;
   font-size: 0.8rem;
   color: rgb(167, 167, 167);
 }
 
+.movie__year-hrForm {
+  display: inline-block;
+}
+.movie__year-hr {
+  border: 0;
+  border-top: 1px solid rgb(122, 122, 122);
+}
+
 .movie__image {
+  margin-top: 15px;
   border-radius: 5px;
   width: 100%;
 }
