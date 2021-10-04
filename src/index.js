@@ -7,9 +7,9 @@ ReactDOM.render(<App />, document.getElementById("potato"));
 
 // ORIGINAL CODE
 // ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('potato')
+//     <React.StrictMode>
+//         <App />
+//     </React.StrictMode>,
+//     document.getElementById('potato')
 // );
 
