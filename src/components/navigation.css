@@ -1,3 +1,24 @@
 li {
   list-style: none;
+  display: inline-block;
+  padding: 30px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.navBar__navigation {
+  color: white;
+  font-size: 15px;
+}
+
+.navBar__navigation li:hover {
+  cursor: pointer;
+  background-color: burlywood;
+  border-radius: 15px;
 }
