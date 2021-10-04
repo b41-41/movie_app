@@ -5,13 +5,13 @@ import './navigation.css';
 function Navigation() {
     return <div className="navBar">
         <div className="navBar__logo">
-            Movie App
+            <Link to="/">Movie App</Link>
         </div>
 
         <div className="navBar__navigation">
             <ul>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/about">About</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
             </ul>
         </div>
 
