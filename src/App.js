@@ -20,7 +20,6 @@ class App extends React.Component {
 
   render() {
     const { isLoading, movies } = this.state;
-    document.addEventListener()
     return (
       <section className="container">
         {isLoading
